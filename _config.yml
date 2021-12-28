@@ -4,6 +4,4 @@ plugins:
 
 title: LinuxAndMore
 description: LinuxAndMore Website
-author: Nick Hildebrandt
-baseurl: ""
-url: linuxandmore.github.io
+
