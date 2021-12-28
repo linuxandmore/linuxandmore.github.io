@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/linuxandmore/linuxandmore.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Hallo und willkommen auf meiner Website
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In Übereinstimmung mit dem YouTube-Kanal findest du hier Informationen zu technischen Themen, wie z.B. Linux, Server und Hardware, die mich interessieren. Die Idee ist, einen Leitfaden für diejenigen bereitzustellen, die umfassendere Informationen und Lösungen wünschen. Im Prinzip gebe ich meine Erfahrungen und Persönliche Entwicklung in besagten Punkten an euch weiter. Ich würde mich freuen, wenn Ihr mich dabei begleitet.
+Was mache ich?
 
-### Markdown
+## Fragen und Antworten
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Solltet ihr fragen oder Probleme haben erstellt bitte auf der [GitHub-Seite](https://github.com/MacAndMoreYT/MacAndMore) dieses Projektes ein "issui". Selbverständlich könnt ihr bei inhaltlichen Problemen auch den Inhalt bearbeiten und einen "Pull Request" bzw. "Merge Request" erstellen. Nach entsprechender Validierung, durch mich, wird dann eure Änderung durchgereicht bzw. das Problem genauer betrachtet oder auch euch spezifisch geholfen. 
 
-```markdown
-Syntax highlighted code block
+## Das bin Ich
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/linuxandmore/linuxandmore.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Ich bin Nick aus Brandenburg (ein Jahrelanger Linux Vertan und Verfechter von freier Software) und mache jeden Samstag 15 Uhr YouTube Videos rund um das Thema Linux, Server und Hardware. Um es auf den Punkt zu bringen, teile ich meine Erfahrungen in den Dingen, die mich interessieren, mit euch. Und das nun schon seit über 2 Jahren. Wenn du Anregungen oder Wünsche hast, bin ich immer bereit auf diese einzugehen. Für alles Weitere, seit gespannt auf zukünftige Videos.
+Tote Hose auf YouTube?
