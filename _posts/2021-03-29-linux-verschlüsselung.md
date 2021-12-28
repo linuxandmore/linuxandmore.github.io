@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "linux-verschlüsselung"
+title:  "Linux - Ordner Verschlüsseln"
+tags: Linux Verschlüsselung
 author: "Nick Hildebrandt"
 date: 2021-03-29
 permalink: /linux-verschlüsselung/
