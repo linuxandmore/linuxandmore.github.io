@@ -222,7 +222,3 @@ sudo passwd -d root
 | Installierte Keys anzeigen | ssh-add -l                      |
 | Key Löschen                | ssh-add -d id_rsa               |
 | Key hinzufügen             | chmod 400 id_rsa ssh-add id_rsa |
-
-## YouTube Video
-
-{{< youtube xRgRhDoyuaw >}}
