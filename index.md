@@ -1,3 +1,4 @@
+# LinuxAndMore Website
 
 ## Hallo und willkommen auf meiner Website
 
@@ -6,7 +7,7 @@ Was mache ich?
 
 ## Fragen und Antworten
 
-Solltet ihr fragen oder Probleme haben erstellt bitte auf der [GitHub-Seite](https://github.com/MacAndMoreYT/MacAndMore) dieses Projektes ein "issui". Selbverständlich könnt ihr bei inhaltlichen Problemen auch den Inhalt bearbeiten und einen "Pull Request" bzw. "Merge Request" erstellen. Nach entsprechender Validierung, durch mich, wird dann eure Änderung durchgereicht bzw. das Problem genauer betrachtet oder auch euch spezifisch geholfen. 
+Solltet ihr fragen oder Probleme haben erstellt bitte auf der [GitHub-Seite](https://github.com/linuxandmore/linuxandmore.github.io) dieses Projektes ein "issui". Selbverständlich könnt ihr bei inhaltlichen Problemen auch den Inhalt bearbeiten und einen "Pull Request" bzw. "Merge Request" erstellen. Nach entsprechender Validierung, durch mich, wird dann eure Änderung durchgereicht bzw. das Problem genauer betrachtet oder auch euch spezifisch geholfen. 
 
 ## Das bin Ich
 
