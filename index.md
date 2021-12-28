@@ -1,5 +1,4 @@
 # LinuxAndMore Website
----
 
 ## Hallo und willkommen auf meiner Website
 
