@@ -150,3 +150,15 @@ sudo systemctl start minecraft.service
 ```shell
 sudo systemctl status minecraft.service
 ```
+
+### Server Admin (OP) erstellen
+
+Oft möchte man im Minecraft spiel selbst die Möglichkeit haben, Befehle über die Textzeile auszuführen. Dafür muss der jeweilige spiele die sogenannten "OP"Rechte besitzen. Diese können ihm nach der Anmeldung unter dem Minecraftbenutzer über die Screenkommandozeile zugewiesen werden.
+
+```shell
+sudo su minecraft && bash
+```
+
+```shell
+screen -p 0 -S mc -X eval 'stuff "op SPIELERNAME"\015'
+```
