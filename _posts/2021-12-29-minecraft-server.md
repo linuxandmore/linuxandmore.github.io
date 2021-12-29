@@ -195,3 +195,17 @@ sudo ufw enable
 ```shell
 sudo ufw allow ssh
 ```
+
+## DDNS und Portfreigaben
+
+Der Mincraftserver ist bereits jetzt im lokalen Netzwerk unter der Internen IP verfügbar. Damit wir nun gemeinsam mit anderen über das Internet zusammen spielen können, müssen wir bei uns im heimischen Router eine sogenannte Portfreigabe einrichten, welche auf dem Port 25565 für UDP und TCP Verbindungen zum Minecraftserver zulässt. Da dies von Router zu Router unterschiedlich ist, verweise ich auf die unten verlinkte Dokumentation. Solltet ihr einen V - Server verwenden, so habt ihr über die öffentliche IP bereits zugriff und könnt diesen Schritt überspringen. Im weiteren Sinne tut sich jedoch gerade für diejenigen, die den Server bei sich zu Hause zu stehen haben, ein weiteres Problem auf. Die meisten Internetschanschlüsse in Deutschland haben heutzutage eine variable IP-Adresse. Das bedeutet, dass sich die IP-Adresse alle 24 Stunden ändert. Doch dafür gibt es eine Lösung - DDNS. Hierbei wird immer dann, wenn sich eure IP ändert, der A Record in der zugeordneten Domain aktualisiert, sodass ihr mittels einer meist Sub-Domain des DDNS Anbieters auf eure Dienste zugreift. Aufgrund der Komplexität verweise ihr hier auf die Videos und Artikel, die ich bereits zu diesem Thema erstellt habe.
+
+**Portfreigaben Einrichten**
+
+- [FritzBox](https://avm.de/service/wissensdatenbank/dok/FRITZ-Box-7490/34_Portfreigaben-in-FRITZ-Box-einrichten/)
+- [Speedport](https://www.telekom.de/hilfe/festnetz-internet-tv/sicherheit/missbrauch-von-diensten/telekom-sicherheitsteam-ratgeber/speedport-w724-portumleitung?samChecked=true)
+
+**DDNS Konfigurieren**
+
+- [FritzBox](https://avm.de/service/wissensdatenbank/dok/FRITZ-Box-7590/30_Dynamic-DNS-in-FRITZ-Box-einrichten/)
+- [Strato DDNS (Empfehlung)](https://www.strato.de/faq/domains/so-einfach-richten-sie-dyndns-fuer-ihre-domains-ein/)
