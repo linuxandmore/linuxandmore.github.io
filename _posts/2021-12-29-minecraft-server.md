@@ -172,3 +172,26 @@ sudo nano /var/minecraft/server.properties
 ```shell
 sudo systemctl restart minecraft.service
 ```
+
+## Die Firewall konfiguriren
+
+Bei manchen Linuxdistributionen kommt als Firewall UFW bzw. Firewalld vorinstalliert mit. In diesem Fall muss der Minecraft Port 25565 (TCP & UDP) zwingend freigegeben werden. Für alle andere Distribution wie z. B. auch Debian wo standardmäßig keine Firewall installiert ist, stellt sich dieser Schritt zunächst als optional dar. Ich empfehle aber aus Sicherheitsgründen gerade auf V-Servern das Tool UFW zu verwenden.
+
+```shell
+sudo apt install ufw -y
+```
+
+```shell
+sudo ufw allow 25565/tcp
+sudo ufw allow 25565/udp
+```
+
+```shell
+sudo ufw enable
+```
+
+> **Achtung:** sollte ihr Via SSH auf den Server zugreifen, so müsst ihr auch SSH freigeben.
+
+```shell
+sudo ufw allow ssh
+```
