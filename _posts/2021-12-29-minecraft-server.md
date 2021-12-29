@@ -167,7 +167,7 @@ Die Minecraft "server.properties" Stellen die Zentrale Konfigurationsdatei des M
 ```shell
 sudo nano /var/minecraft/server.properties
 ```
-- [Bedeutung der einzelnen Optionen](https://minecraft.fandom.com/wiki/Server.properties)
+> [Bedeutung der einzelnen Optionen](https://minecraft.fandom.com/wiki/Server.properties)
 
 ```shell
 sudo systemctl restart minecraft.service
