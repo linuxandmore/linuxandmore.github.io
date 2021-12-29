@@ -59,6 +59,7 @@ sudo mkdir /var/minecraft
 
 - [Vanilla](https://www.minecraft.net/de-de/download/server)
 - [Paper - Empfohlen für Plugins](https://papermc.io/)
+- [Forge - Empfohlen für Mods](https://files.minecraftforge.net/net/minecraftforge/forge/)
 
 ```shell
 sudo wget DOWNLOD-LINK
@@ -73,6 +74,14 @@ sudo nano /var/minecraft/eula.txt
 eula=true
 ```
 
+### Ein Server Icon Verwenden
+
+Möchte man das in der Auswahlliste der Server im Spiel ein Logo erschein, so erstellt man in "/var/minecraft" ein 64x64 pixel großen PNG bild mit dem Namen "server-icon.png". Daraufhin wird diesen beim Stat des Minecraftservers automatisch geladen.
+
+### Minecraft Benutzer Lese und Schreibrechte geben
+
+Dieser bereits oben erwähnte Schritt ist nach jeder Datei Erstellung bzw. Änderung im Ordner "/var/minecraft" notwendig.
+
 ```shell
 sudo chown -R minecraft:minecraft /var/minecraft
 ```
@@ -80,7 +89,6 @@ sudo chown -R minecraft:minecraft /var/minecraft
 ## Systemd Service erstellen
 
 Damit unser Minecraftserver automatisch gestartet und im Falle eines Absturzes neugestaltet wird, verwenden wir den System- und Sitzungs-Manager Systemd welcher bei fast allen modernen Linuxdistributionen als Standard Init-System verwendet wird.
-
 
 ```shell
 sudo nano /etc/systemd/system/minecraft.service
