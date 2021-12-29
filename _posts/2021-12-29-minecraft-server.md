@@ -73,3 +73,6 @@ sudo nano /var/minecraft/eula.txt
 eula=true
 ```
 
+```shell
+sudo chown -R minecraft:minecraft /var/minecraft
+```
