@@ -76,3 +76,42 @@ eula=true
 ```shell
 sudo chown -R minecraft:minecraft /var/minecraft
 ```
+
+## Systemd Service erstellen
+
+Damit unser Minecraftserver automatisch gestartet und im Falle eines Absturzes neugestaltet wird, verwenden wir den System- und Sitzungs-Manager Systemd welcher bei fast allen modernen Linuxdistributionen als Standard Init-System verwendet wird.
+
+
+```shell
+sudo nano /etc/systemd/system/minecraft.service
+```
+
+```shell
+[Unit]
+Description=Minecraft Server
+
+Wants=network.target
+After=network.target
+
+[Service]
+User=minecraft
+Group=minecraft
+Nice=5
+SuccessExitStatus=0 1
+
+ProtectHome=true
+ProtectSystem=full
+PrivateDevices=true
+NoNewPrivileges=true
+PrivateTmp=true
+InaccessibleDirectories=/root /sys /srv -/opt /media -/lost+found
+ReadWriteDirectories=/var/minecraft
+WorkingDirectory=/var/minecraft
+ExecStart=/usr/bin/screen -DmS mc /usr/bin/java -Xms512M -Xmx1024M -jar server.jar nogui
+ExecStop=/usr/bin/screen -p 0 -S mc -X eval 'stuff "say Minecraftserver geht in 10 Sekunden offline"\015'
+ExecStop=/usr/bin/screen -p 0 -S mc -X eval 'stuff "save-all"\015'
+ExecStop=/bin/sleep 10
+ExecStop=/usr/bin/screen -p 0 -S mc -X eval 'stuff "stop"\015'
+[Install]
+WantedBy=multi-user.target
+```
