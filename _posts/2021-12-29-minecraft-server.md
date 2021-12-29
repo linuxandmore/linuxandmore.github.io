@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Linux Minecraft Server mit Systemd und Backups"
