@@ -123,3 +123,13 @@ ExecStop=/usr/bin/screen -p 0 -S mc -X eval 'stuff "stop"\015'
 [Install]
 WantedBy=multi-user.target
 ```
+
+### Was man anpassen sollte
+
+Der Inhalt der Servicedatei kann in den meisten Fällen so bleiben, wie er ist interessant sind lediglich folgende Punkte:
+
+- "-Xms512M" (Min. Arbeitsspeicher)
+- "-Xmx1024M" (Max. Arbeitsspeicher)
+- "server.jar" (Name der heruntergeladenen Serverdatei)
+- "say Minecraftserver geht in 10 Sekunden offline" (Ausgabe im Chat wenn der Server offline geht)
+- "/bin/sleep 10" Wartezeit bis der Server offline geht
