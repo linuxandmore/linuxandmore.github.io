@@ -133,3 +133,20 @@ Der Inhalt der Servicedatei kann in den meisten Fällen so bleiben, wie er ist i
 - "server.jar" (Name der heruntergeladenen Serverdatei)
 - "say Minecraftserver geht in 10 Sekunden offline" (Ausgabe im Chat wenn der Server offline geht)
 - "/bin/sleep 10" Wartezeit bis der Server offline geht
+
+## Dienst Aktivieren und Server Starten
+
+Nun muss der Dienst noch aktiviert werden, damit er automatisch mit dem System startet. Zusätzlich werden wir den Dienst einmal manuell starten sowie dessen Status ausgeben, um die Funktionalität des Servers sicherzustellen.
+
+
+```shell
+sudo systemctl enable minecraft.service
+```
+
+```shell
+sudo systemctl start minecraft.service
+```
+
+```shell
+sudo systemctl status minecraft.service
+```
