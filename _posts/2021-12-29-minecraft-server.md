@@ -45,16 +45,13 @@ sudo groupadd minecraft
 ```
 
 ```shell
-sudo useradd -D -s /bin/bash -m -d /var/minecraft -g minecraft minecraft
+sudo useradd -s /bin/bash -m -d /var/minecraft -g minecraft minecraft
 ```
 
 ## Minecraft Ordner erstellen und Dateien Bereitstellen
 
-Das Heimatverzeichnis des gerade erstellen Benutzers ist "var/minecraft" dieses werden wir zunächst erstellen und anschließend alle notwendigen Dateien in diesem Verzeichnis lagern. Schlussendlich stellen wir dann noch sicher, dass der Benutzer Minecraft der Eigentümer von diesem Verzeichnis ist und lesen sowie schreiben kann.
+Das Heimatverzeichnis des gerade erstellen Benutzers ist "var/minecraft" diesem werden wir alle notwendigen Dateien und Konfigurationen lagen.
 
-```shell
-sudo mkdir /var/minecraft
-```
 ### Minecraft Server Version
 
 - [Vanilla](https://www.minecraft.net/de-de/download/server)
