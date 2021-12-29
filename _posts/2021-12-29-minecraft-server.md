@@ -45,7 +45,7 @@ sudo groupadd minecraft
 ```
 
 ```shell
-sudo useradd -m -d /var/minecraft -g minecraft minecraft
+sudo useradd -D -s /bin/bash -m -d /var/minecraft -g minecraft minecraft
 ```
 
 ## Minecraft Ordner erstellen und Dateien Bereitstellen
@@ -156,7 +156,7 @@ sudo systemctl status minecraft.service
 Oft möchte man im Minecraft spiel selbst die Möglichkeit haben, Befehle über die Textzeile auszuführen. Dafür muss der jeweilige spiele die sogenannten "OP"Rechte besitzen. Diese können ihm nach der Anmeldung unter dem Minecraftbenutzer über die Screenkommandozeile zugewiesen werden.
 
 ```shell
-sudo su minecraft && bash
+sudo su minecraft
 ```
 
 ```shell
