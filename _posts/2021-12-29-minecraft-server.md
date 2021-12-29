@@ -27,3 +27,23 @@ Oft wird empfohlen, einfach Windows oder irgendein überladendes Linuxderivat mi
 - 2CPU Cores
 - Java 17
 - Minecraft 1.18
+
+## Erforderliche Pakete installieren
+
+Minecraft 1.18 benötigt mindestens Java 1.14 weshalb wird, da es in den offiziellen Paketquellen von Debian 11 ist Java 17 installieren. Genauer verwenden wir hier der headless Version, da wir die grafischen Komponenten von Java nicht benötigen und sie Installation so minimal wie möglichen seine soll. Zudem Benötigen wir das GNU Tool Screen um die die Minecraft Server Konsole zugreifen zu können.
+
+```shell
+sudo apt install openjdk-17-jre-headless screen -y
+```
+
+## Minecraft Benutzer und Gruppe anlegen
+
+Damit der Server mit den Niedrigst möglichen Berechtigungen ausgeführt wird, erstellen wir einen Benutzer Minecraft, welcher kein Passwort hat und zur ebenfalls erstellten Gruppe Minecraft gehört.
+
+```shell
+sudo groupadd minecraft
+```
+
+```shell
+sudo useradd -g minecraft -m -d /var/www/minecraft
+```
