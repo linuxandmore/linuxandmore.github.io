@@ -2,7 +2,7 @@
 layout: post
 title:  "Linux Minecraft Server mit Systemd und Backups"
 author: "Nick Hildebrandt"
-date: 2020-12-13
+date: 2021-12-29
 permalink: /minecraft-server/
 ---
 
