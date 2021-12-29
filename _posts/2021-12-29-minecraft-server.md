@@ -159,3 +159,16 @@ sudo su minecraft
 ```shell
 screen -p 0 -S mc -X eval 'stuff "op SPIELERNAME"\015'
 ```
+
+## Die Minecraft "server.properties"
+
+Die Minecraft "server.properties" Stellen die Zentrale Konfigurationsdatei des Minecraftservers dar. Sie werden automatisch beim ersten Start des Minecraftservers erstellt und können anschließen bearbeitet werden. Nach jeder Änderung muss der Minecraftserver mit dem unten aufgeführten Befehl neugestarten werden damit die Änderungen in kraft treten.
+
+```shell
+sudo nano /var/minecraft/server.properties
+```
+- [Bedeutung der einzelnen Optionen](https://minecraft.fandom.com/wiki/Server.properties)
+
+```shell
+sudo systemctl restart minecraft.service
+```
