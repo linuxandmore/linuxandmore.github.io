@@ -16,6 +16,6 @@ Hallo, ich bin Nick aus Brandenburg, jahrelanger begeisterter Linuxnutzer und in
 
 ## Aktive Projekte
 
-- [Photoboth](https://github.com/MacAndMoreYT/Photoboth)
-- [Torben-Trinkt](https://github.com/MacAndMoreYT/Torben-Trinkt)
-- [PXE](https://github.com/MacAndMoreYT/PXE)
+- [Photoboth](https://github.com/LinuxAndMoreYT/Photoboth)
+- [Torben-Trinkt](https://github.com/LinuxAndMoreYT/Torben-Trinkt)
+- [PXE](https://github.com/LinuxAndMoreYT/PXE)
