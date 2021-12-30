@@ -22,10 +22,12 @@ Hallo, ich bin Nick aus Brandenburg, jahrelanger begeisterter Linuxnutzer und in
 
 ## Inhalt dieser Seite
 
+<ul>
 {% for post in site.posts %}
 <li>
   <a href="{{ post.url }}">
-    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time> {{ post.title }}
+    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date }}</time> &#09; {{ post.title }}
   </a>
 </li>
 {% endfor %}
+<ul>
