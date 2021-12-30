@@ -12,5 +12,10 @@ Solltet ihr fragen oder Probleme haben erstellt bitte auf der [GitHub-Seite](htt
 
 ## Das bin Ich
 
-Ich bin Nick aus Brandenburg (ein Jahrelanger Linux Vertan und Verfechter von freier Software) und mache jeden Samstag 15 Uhr YouTube Videos rund um das Thema Linux, Server und Hardware. Um es auf den Punkt zu bringen, teile ich meine Erfahrungen in den Dingen, die mich interessieren, mit euch. Und das nun schon seit über 2 Jahren. Wenn du Anregungen oder Wünsche hast, bin ich immer bereit auf diese einzugehen. Für alles Weitere, seit gespannt auf zukünftige Videos.
-Tote Hose auf YouTube?
+Hallo, ich bin Nick aus Brandenburg, jahrelanger begeisterter Linuxnutzer und inzwischen wohl Server Junkie. Mit meinen Videos und blogbeitragen versuche ich meine Erfahrungen und Ansichtspunkte mit der Welt zu teilen, um einerseits zur Disskussion anzuregen und vielleicht auch den ein oder anderen zu faszinieren.
+
+## Aktive Projekte
+
+- [Photoboth](https://github.com/MacAndMoreYT/Photoboth)
+- [Torben-Trinkt](https://github.com/MacAndMoreYT/Torben-Trinkt)
+- [PXE](https://github.com/MacAndMoreYT/PXE)
