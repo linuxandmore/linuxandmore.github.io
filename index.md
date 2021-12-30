@@ -19,3 +19,17 @@ Hallo, ich bin Nick aus Brandenburg, jahrelanger begeisterter Linuxnutzer und in
 - [Photoboth](https://github.com/LinuxAndMoreYT/Photoboth)
 - [Torben-Trinkt](https://github.com/LinuxAndMoreYT/Torben-Trinkt)
 - [PXE](https://github.com/LinuxAndMoreYT/PXE)
+
+## Inhalt dieser Seite
+
+{% for post in site.posts %}
+  <article>
+    <h2>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+      <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+    {{ post.content }}
+  </article>
+{% endfor %}
