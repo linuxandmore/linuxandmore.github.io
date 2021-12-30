@@ -26,7 +26,7 @@ Hallo, ich bin Nick aus Brandenburg, jahrelanger begeisterter Linuxnutzer und in
 {% for post in site.posts %}
 <li>
   <a href="{{ post.url }}">
-    {{ post.date | date: "%-d.%m.%Y" }} &emsp; {{ post.title }}
+    {{ post.date | date: "%-d.%m.%Y" }} &ensp; {{ post.title }}
   </a>
 </li>
 {% endfor %}
