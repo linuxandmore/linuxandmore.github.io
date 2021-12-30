@@ -24,9 +24,8 @@ Hallo, ich bin Nick aus Brandenburg, jahrelanger begeisterter Linuxnutzer und in
 
 {% for post in site.posts %}
 <li>
-  <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
   <a href="{{ post.url }}">
-    {{ post.title }}
+    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time> {{ post.title }}
   </a>
 </li>
 {% endfor %}
