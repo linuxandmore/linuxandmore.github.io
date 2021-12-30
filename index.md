@@ -19,3 +19,6 @@ Hallo, ich bin Nick aus Brandenburg, jahrelanger begeisterter Linuxnutzer und in
 - [Photoboth](https://github.com/LinuxAndMoreYT/Photoboth)
 - [Torben-Trinkt](https://github.com/LinuxAndMoreYT/Torben-Trinkt)
 - [PXE](https://github.com/LinuxAndMoreYT/PXE)
+
+{% for post in site.posts %}
+{% endfor %}
