@@ -6,6 +6,9 @@ date: 2020-12-13
 permalink: /pxe-server/
 ---
 
+* TOC
+{:toc}
+
 ## Was ist PXE?
 
 PXE ist ein Verfahren von Intel, um Computer einen netzwerkbasierten Startvorgang zu ermöglichen.
