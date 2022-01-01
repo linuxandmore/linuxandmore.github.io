@@ -6,6 +6,9 @@ date: 2021-03-29
 permalink: /linux-verschlüsselung/
 ---
 
+* TOC
+{:toc}
+
 ## Was wir Vorhaben
 
 Ich möchte euch in diesem Artikel zeigen, wie Ihr mittels GPG ganze order oder einzelne Dateien verschlüsseln und signieren könnte, 
