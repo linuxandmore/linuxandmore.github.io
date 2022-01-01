@@ -1,9 +1,7 @@
 remote_theme: pages-themes/minimal@v0.2.0
+markdown: kramdown
 plugins:
 - jekyll-remote-theme
-
-kramdown:
-  parse_block_html: true
 
 title: LinuxAndMore
 description: LinuxAndMore Website
