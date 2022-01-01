@@ -6,10 +6,8 @@ date: 2021-12-29
 permalink: /minecraft-server/
 ---
 
------------------------
 * TOC
 {:toc}
------------------------
 
 ## Noch ein Minecraft Server Tutorial?
 
