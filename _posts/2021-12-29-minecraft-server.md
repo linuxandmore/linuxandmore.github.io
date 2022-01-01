@@ -6,9 +6,6 @@ date: 2021-12-29
 permalink: /minecraft-server/
 ---
 
-* TOC
-{:toc}
-
 ## Noch ein Minecraft Server Tutorial?
 
 Viele werden sich fragen, weshalb ich ein weiteres Tutorial zum Erstellen eines Minecraftservers auf Linuxbasis mache, wenn es diese auf YouTube doch schon wie sand am mehr gibt. Die Antwort ist relativ einfach, die meisten aller Videos oder Artikel, die ich bisher gesehen habe, waren in ihrer Umsetzung zu Erstellung eines solchen Servers eher mangelhaft da z.b. Zum Starten nur Cron oder eine zwielichtige web GUI genutzt wurde. Dies resultiere dann oft in der Ausführung von Java unter dem Rootbenutzer. Zudem wird das Thema Backup eines Minecraftservers immer sehr stiefmütterlich behandelt weshalb ich auch darauf einen genaueren Blick werfen werde.
