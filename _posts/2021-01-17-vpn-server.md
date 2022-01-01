@@ -6,6 +6,9 @@ date: 2021-01-17
 permalink: /vpn-server/
 ---
 
+* TOC
+{:toc}
+
 ## Was ist eine VPN?
 
 Eine der besten Möglichkeiten zum Sichern von Daten in und aus Ihrem Netzwerk könnte die Verwendung eines VPN sein.
