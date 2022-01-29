@@ -3,4 +3,4 @@ User-agent: Googlebot
 User-agent: *
 Allow: /
 
-Sitemap: https://linuxandmore.github.io/sitemap.xml
+Sitemap: https://linuxandmore.github.io/sitemap.txt
